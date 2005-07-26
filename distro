@@ -6,21 +6,39 @@
 # This is a POSIX shell fragment
 #
 
+# Should we propose distribution agnostic defaults?
+# Obviously no-one would use it for FLL_DISTRO_NAME
+# But perhaps having an agnostic name for e.g
+# FLL_MOUNTPOINT may offer the lazyiest approach
+
 # specify distribution name
 FLL_DISTRO_NAME="Kanotix"
 
+# Propose FLL_IMAGE_DIR and FLL_IMAGE_NAME to match
+# knoppix_dir and knoppix_name cheatcodes?
+# Optionally combine them here to FLL_IMAGE?
+# Secondly, should this and MOUNTPOINT below be arrays?
 # where is the compressed image located (from the media root)
 FLL_IMAGE_LOCATION="KNOPPIX/KNOPPIX"
 
 # specify the mountpoint for the compressed file system
 FLL_MOUNTPOINT="/KNOPPIX"
 
-# specify default the user name on the live CD
+# As a match to the above though only relevant to kanotix fromiso
+FLL_MEDIA_DIR="KNOPPIX"
+FLL_MEDIA_NAME="KNOPPIX.ISO"
+FLL_MEDIA_MOUNTPOINT="/isosrc"
+
+# specify default user name on a single user system
 FLL_LIVE_USER="knoppix"
 
+# Propose FLL_DISTRO_STATUS instead as clearer?
 # system status (installed|live)
 FLL_DISTRO_MODE="installed"
 
+# Propose FLL_HARDWARE_DETECT and FLL_SINGLE_USER switches instead
+# Installer can turn these on|off to replicate below?
+# current live cd would have both on
 # install type (debian|beginner|live)
 FLL_INSTALL_TYPE="debian"
 
@@ -33,3 +51,20 @@ FLL_IRC_PORT="6667"
 FLL_IRC_CHANNEL="#kanotix"
 
 # more to come...
+
+# sources.list
+# arrays?
+FLL_DEBIAN_SERVER="ftp.de.debian.org"
+FLL_DEBIAN_RELEASE="sid"
+FLL_DEBIAN_SECTION="main"
+
+# unions
+# arrays?
+FLL_UNION_SOURCE="/ramdisk/var/tmp/union"
+FLL_UNION_TARGET="$FLL_MOUNTPOINT"
+FLL_UNION_OPTIONS="rw"
+
+# fstab
+# are fstab options populated commonly?
+# things like proc sys pts
+
