@@ -1,3 +1,9 @@
+distro-defaults (0.3.1) unstable; urgency=low
+
+  * make live detection dynamic.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun,  7 Aug 2005 19:39:06 +0200
+
 distro-defaults (0.3) unstable; urgency=low
 
   * add FLL_IMAGE_DIR, FLL_IMAGE_FILE, use that info for FLL_IMAGE_LOCATION.
