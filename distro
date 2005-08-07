@@ -50,21 +50,11 @@ FLL_IRC_SERVER="irc.freenode.net"
 FLL_IRC_PORT="6667"
 FLL_IRC_CHANNEL="#kanotix"
 
-# more to come...
-
-# sources.list
-# arrays?
-FLL_DEBIAN_SERVER="ftp.de.debian.org"
-FLL_DEBIAN_RELEASE="sid"
-FLL_DEBIAN_SECTION="main"
-
-# unions
-# arrays?
+# configure unionfs
 FLL_UNION_SOURCE="/ramdisk/var/tmp/union"
 FLL_UNION_TARGET="$FLL_MOUNTPOINT"
 FLL_UNION_OPTIONS="rw"
 
-# fstab
-# are fstab options populated commonly?
-# things like proc sys pts
+# preferred X toolkit for various helper tools (gtk|gtk2|kde).
+FLL_XTOOLKIT="kde"
 

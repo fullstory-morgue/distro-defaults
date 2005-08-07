@@ -1,3 +1,11 @@
+distro-defaults (0.2) unstable; urgency=low
+
+  * add FLL_XTOOLKIT.
+  * remove fstab defaults.
+  * remove sources.list configuration.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun,  7 Aug 2005 03:16:28 +0200
+
 distro-defaults (0.1) unstable; urgency=low
 
   * Initial release.
