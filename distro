@@ -19,7 +19,7 @@ FLL_MOUNTPOINT="/KNOPPIX"
 
 # As a match to the above though only relevant to kanotix fromiso
 FLL_MEDIA_DIR="KNOPPIX"
-FLL_MEDIA_NAME="KNOPPIX.ISO"
+FLL_MEDIA_NAME="KANOTIX.ISO"
 FLL_MEDIA_MOUNTPOINT="/isosrc"
 
 # specify default user name on a single user system

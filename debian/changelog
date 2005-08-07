@@ -4,7 +4,7 @@ distro-defaults (0.3) unstable; urgency=low
   * remove spare comments.
   * minor clean up.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun,  7 Aug 2005 14:08:16 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun,  7 Aug 2005 18:01:14 +0200
 
 distro-defaults (0.2) unstable; urgency=low
 
