@@ -1,3 +1,11 @@
+distro-defaults (0.3) unstable; urgency=low
+
+  * add FLL_IMAGE_DIR, FLL_IMAGE_FILE, use that info for FLL_IMAGE_LOCATION.
+  * remove spare comments.
+  * minor clean up.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun,  7 Aug 2005 14:08:16 +0200
+
 distro-defaults (0.2) unstable; urgency=low
 
   * add FLL_XTOOLKIT.

@@ -6,20 +6,13 @@
 # This is a POSIX shell fragment
 #
 
-# Should we propose distribution agnostic defaults?
-# Obviously no-one would use it for FLL_DISTRO_NAME
-# But perhaps having an agnostic name for e.g
-# FLL_MOUNTPOINT may offer the lazyiest approach
-
 # specify distribution name
 FLL_DISTRO_NAME="Kanotix"
 
-# Propose FLL_IMAGE_DIR and FLL_IMAGE_NAME to match
-# knoppix_dir and knoppix_name cheatcodes?
-# Optionally combine them here to FLL_IMAGE?
-# Secondly, should this and MOUNTPOINT below be arrays?
-# where is the compressed image located (from the media root)
-FLL_IMAGE_LOCATION="KNOPPIX/KNOPPIX"
+# where is the compressed image located (from the media root, no leading /)
+FLL_IMAGE_DIR="KNOPPIX"
+FLL_IMAGE_FILE="KNOPPIX"
+FLL_IMAGE_LOCATION="$FLL_IMAGE_DIR/$FLL_IMAGE_FILE"
 
 # specify the mountpoint for the compressed file system
 FLL_MOUNTPOINT="/KNOPPIX"
@@ -32,13 +25,10 @@ FLL_MEDIA_MOUNTPOINT="/isosrc"
 # specify default user name on a single user system
 FLL_LIVE_USER="knoppix"
 
-# Propose FLL_DISTRO_STATUS instead as clearer?
 # system status (installed|live)
+# this affects su/ sudo mechanisms and other defaults
 FLL_DISTRO_MODE="installed"
 
-# Propose FLL_HARDWARE_DETECT and FLL_SINGLE_USER switches instead
-# Installer can turn these on|off to replicate below?
-# current live cd would have both on
 # install type (debian|beginner|live)
 FLL_INSTALL_TYPE="debian"
 
