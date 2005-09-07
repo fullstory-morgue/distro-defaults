@@ -1,3 +1,9 @@
+distro-defaults (0.3.2) unstable; urgency=low
+
+  * add workaround for mastering environments.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed,  7 Sep 2005 23:35:11 +0200
+
 distro-defaults (0.3.1) unstable; urgency=low
 
   * make live detection dynamic.
