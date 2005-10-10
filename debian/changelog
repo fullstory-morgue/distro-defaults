@@ -1,3 +1,9 @@
+distro-defaults (0.3.4) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 10 Oct 2005 21:25:23 +0200
+
 distro-defaults (0.3.3) unstable; urgency=low
 
   * change wallpaper location to /usr/share/wallpapers/kanotix.png.
