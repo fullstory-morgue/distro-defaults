@@ -33,7 +33,7 @@ FLL_DISTRO_MODE=$([ -d "$FLL_MOUNTPOINT" -o -e /KNOPPIX.build ] && echo live || 
 FLL_INSTALL_TYPE="debian"
 
 # where is the default X wallpaper located
-FLL_WALLPAPER="/usr/local/lib/kanotix.png"
+FLL_WALLPAPER="/usr/share/wallpapers/kanotix.png"
 
 # specify some settings for IRC support
 FLL_IRC_SERVER="irc.freenode.net"
