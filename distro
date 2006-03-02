@@ -45,6 +45,9 @@ FLL_UNION_SOURCE="/ramdisk/var/tmp/union"
 FLL_UNION_TARGET="$FLL_MOUNTPOINT"
 FLL_UNION_OPTIONS="rw"
 
+# configure persistent home location
+FLL_PERSISTENT_HOME="kanotix.img"
+
 # preferred X toolkit for various helper tools (gtk|gtk2|kde).
 FLL_XTOOLKIT="kde"
 
