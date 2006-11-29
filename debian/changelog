@@ -1,3 +1,9 @@
+distro-defaults (0.4.1) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 29 Nov 2006 15:04:53 +0100
+
 distro-defaults (0.4.0) unstable; urgency=low
 
   * initial release for sidux.
