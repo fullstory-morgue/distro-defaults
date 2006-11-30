@@ -50,7 +50,3 @@ FLL_PERSISTENT_HOME="sidux.img"
 
 # preferred X toolkit for various helper tools (gtk|gtk2|kde).
 FLL_XTOOLKIT="kde"
-
-# default www-browser for x wm
-# cleary note - command copied from konqueror web browser startup
-FLL_X_WWWBROWSER="kfmclient openProfile webbrowsing"
