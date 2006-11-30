@@ -1,8 +1,9 @@
 distro-defaults (0.4.1) UNRELEASED; urgency=low
 
   * NOT RELEASED YET
+  * changed wallpaper name
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 29 Nov 2006 15:04:53 +0100
+ -- Joaquim Boura <x-un-i@sidux.com>  Thu, 30 Nov 2006 22:27:03 +0100
 
 distro-defaults (0.4.0) unstable; urgency=low
 
