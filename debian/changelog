@@ -2,8 +2,9 @@ distro-defaults (0.4.1) UNRELEASED; urgency=low
 
   * NOT RELEASED YET
   * changed wallpaper name
+  * fixed mispelling
 
- -- Joaquim Boura <x-un-i@sidux.com>  Thu, 30 Nov 2006 22:27:03 +0100
+ -- Joaquim Boura <x-un-i@sidux.com>  Mon,  4 Dec 2006 14:27:03 +0100
 
 distro-defaults (0.4.0) unstable; urgency=low
 
