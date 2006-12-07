@@ -1,3 +1,9 @@
+distro-defaults (0.4.3) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri,  8 Dec 2006 00:33:49 +0100
+
 distro-defaults (0.4.2) unstable; urgency=low
 
   * fix wallpaper location.
