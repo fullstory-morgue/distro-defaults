@@ -1,9 +1,13 @@
 distro-defaults (0.4.4) UNRELEASED; urgency=low
 
+  [ Stefan Lippers-Hollmann ]
   * NOT RELEASED YET
   * /KNOPPIX.build is obsolete
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue,  2 Jan 2007 15:40:02 +0100
+  [ Bernard Gray ]
+  * add FLL_CDROM_INDEX and FLL_CDROM_INDEX_ICON for manual 
+
+ -- Bernard Gray <bernard.gray@gmail.com>  Sun, 18 Feb 2007 10:18:16 +1100
 
 distro-defaults (0.4.3) unstable; urgency=low
 
