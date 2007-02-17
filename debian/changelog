@@ -1,7 +1,9 @@
-distro-defaults (0.4.4) UNRELEASED; urgency=low
+distro-defaults (0.4.4) ORPHANED; urgency=low
 
   [ Stefan Lippers-Hollmann ]
   * NOT RELEASED YET
+  * ORPHAN PACKAGE
+  * distro-defaults is part of the fll-builder source package now.
   * /KNOPPIX.build is obsolete
 
   [ Bernard Gray ]
