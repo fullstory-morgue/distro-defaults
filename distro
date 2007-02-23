@@ -53,6 +53,6 @@ FLL_XTOOLKIT="kde"
 
 # cdrom html index.html custom info
 # for sidux it's the manual
-FLL_CDROM_INDEX="Sidux Manual"
+FLL_CDROM_INDEX="sidux manual"
 FLL_CDROM_INDEX_ICON="/cdrom/manual/lib/sidux-book.png"
 

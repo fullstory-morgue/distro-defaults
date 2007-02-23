@@ -7,9 +7,10 @@ distro-defaults (0.4.4) ORPHANED; urgency=low
   * /KNOPPIX.build is obsolete
 
   [ Bernard Gray ]
-  * add FLL_CDROM_INDEX and FLL_CDROM_INDEX_ICON for manual 
+  * add FLL_CDROM_INDEX and FLL_CDROM_INDEX_ICON for manual
+  * change case for sidux manual icon title 
 
- -- Bernard Gray <bernard.gray@gmail.com>  Sun, 18 Feb 2007 10:18:16 +1100
+ -- Bernard Gray <bernard.gray@gmail.com>  Fri, 23 Feb 2007 17:34:33 +1100
 
 distro-defaults (0.4.3) unstable; urgency=low
 
